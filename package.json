@@ -1,7 +1,7 @@
 {
-  "name": "create-torrent",
+  "name": "create-raidtorrent",
   "description": "Create .torrent files",
-  "version": "3.24.5",
+  "version": "3.24.7",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
   "bin": {
     "create-torrent": "./bin/cmd.js"
@@ -33,7 +33,7 @@
     "webtorrent-fixtures": "^1.4.0",
     "zuul": "^3.0.0"
   },
-  "homepage": "https://github.com/feross/create-torrent",
+  "homepage": "https://github.com/FrankSunnyvale/create-raidtorrent.git",
   "keywords": [
     "torrent",
     "create torrent",
@@ -51,7 +51,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/create-torrent.git"
+    "url": "https://github.com/FrankSunnyvale/create-raidtorrent.git"
   },
   "scripts": {
     "test": "standard && npm run test-node && npm run test-browser",
@@ -67,5 +67,8 @@
   },
   "testling": {
     "files": "test/browser/*.js"
+  },
+  "directories": {
+    "test": "test"
   }
 }
